@@ -13,4 +13,22 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="My.HotelManagement" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8FA0DF</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#8FA0DF</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="dilogeAnimation">
+        <item name="android:windowEnterAnimation">@anim/silde_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/silde_out_bottom</item>
+    </style>
 </resources>
